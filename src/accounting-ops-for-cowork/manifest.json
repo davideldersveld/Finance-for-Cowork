@@ -1,0 +1,63 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.28/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.28",
+  "version": "1.0.1",
+  "id": "7627dc91-007d-5f75-b27f-c6a4bf34d74e",
+  "developer": {
+    "name": "Copilot SE Contributors",
+    "websiteUrl": "https://example.com/copilot-se-contributors",
+    "privacyUrl": "https://example.com/copilot-se-contributors/privacy",
+    "termsOfUseUrl": "https://example.com/copilot-se-contributors/terms"
+  },
+  "name": {
+    "short": "Accounting Ops for Cowork",
+    "full": "Accounting Operations for Cowork (Independent community project)"
+  },
+  "description": {
+    "short": "Invoice-to-pay and record-to-report skills: payables, journals, close.",
+    "full": "Accounting Operations for Cowork: an independent community project maintained by a Microsoft employee. Not an official Microsoft product or resource, and not affiliated with or endorsed by Microsoft. A Finance skill set for Copilot Cowork, built for accounts payable, general ledger and close teams. Every skill prepares and recommends but never posts, releases, approves, files or sends without an explicit instruction; every figure is labelled and traced to its source; thresholds come from the user or the shared Finance Profile. Skills (12): Process supplier invoices; Resolve match exceptions; Prepare payment proposal; Validate supplier master change; Audit employee expenses; Run close calendar; Prepare journal entries; Calculate accruals and prepaids; Reconcile balance sheet accounts; Reconcile intercompany; Roll forward fixed assets; Explain account fluctuations. Works alongside the other Finance for Cowork plugins; install Finance Foundation for Cowork for the shared Finance Profile."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#5C2E91",
+  "agentSkills": [
+    {
+      "folder": "./skills/process-supplier-invoices"
+    },
+    {
+      "folder": "./skills/resolve-match-exceptions"
+    },
+    {
+      "folder": "./skills/prepare-payment-proposal"
+    },
+    {
+      "folder": "./skills/validate-supplier-master-change"
+    },
+    {
+      "folder": "./skills/audit-employee-expenses"
+    },
+    {
+      "folder": "./skills/run-close-calendar"
+    },
+    {
+      "folder": "./skills/prepare-journal-entries"
+    },
+    {
+      "folder": "./skills/calculate-accruals-and-prepaids"
+    },
+    {
+      "folder": "./skills/reconcile-balance-sheet-accounts"
+    },
+    {
+      "folder": "./skills/reconcile-intercompany"
+    },
+    {
+      "folder": "./skills/roll-forward-fixed-assets"
+    },
+    {
+      "folder": "./skills/explain-account-fluctuations"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.28/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.28",
+  "version": "1.0.1",
+  "id": "45293b8e-5922-58b3-923f-43554c551cf1",
+  "developer": {
+    "name": "Copilot SE Contributors",
+    "websiteUrl": "https://example.com/copilot-se-contributors",
+    "privacyUrl": "https://example.com/copilot-se-contributors/privacy",
+    "termsOfUseUrl": "https://example.com/copilot-se-contributors/terms"
+  },
+  "name": {
+    "short": "Tax for Cowork",
+    "full": "Tax for Cowork (Independent community project)"
+  },
+  "description": {
+    "short": "Tax skills: calendar, indirect tax, nexus, notices, provision, TP.",
+    "full": "Tax for Cowork: an independent community project maintained by a Microsoft employee. Not an official Microsoft product or resource, and not affiliated with or endorsed by Microsoft. A Finance skill set for Copilot Cowork, built for corporate tax and indirect tax teams. Every skill prepares and recommends but never posts, releases, approves, files or sends without an explicit instruction; every figure is labelled and traced to its source; thresholds come from the user or the shared Finance Profile. Skills (7): Maintain tax compliance calendar; Reconcile indirect tax returns; Validate transaction tax treatment; Assess nexus and registration; Respond to tax notices; Prepare income tax provision; Document transfer pricing. Works alongside the other Finance for Cowork plugins; install Finance Foundation for Cowork for the shared Finance Profile."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#C50F1F",
+  "agentSkills": [
+    {
+      "folder": "./skills/maintain-tax-compliance-calendar"
+    },
+    {
+      "folder": "./skills/reconcile-indirect-tax-returns"
+    },
+    {
+      "folder": "./skills/validate-transaction-tax-treatment"
+    },
+    {
+      "folder": "./skills/assess-nexus-and-registration"
+    },
+    {
+      "folder": "./skills/respond-to-tax-notices"
+    },
+    {
+      "folder": "./skills/prepare-income-tax-provision"
+    },
+    {
+      "folder": "./skills/document-transfer-pricing"
+    }
+  ]
+}

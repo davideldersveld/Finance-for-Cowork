@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.28/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.28",
+  "version": "1.0.1",
+  "id": "a8c96280-4519-5917-ae88-7bff081b08af",
+  "developer": {
+    "name": "Copilot SE Contributors",
+    "websiteUrl": "https://example.com/copilot-se-contributors",
+    "privacyUrl": "https://example.com/copilot-se-contributors/privacy",
+    "termsOfUseUrl": "https://example.com/copilot-se-contributors/terms"
+  },
+  "name": {
+    "short": "Finance Foundation for Cowork",
+    "full": "Finance Foundation for Cowork (Independent community project)"
+  },
+  "description": {
+    "short": "Shared finance data, tie-out, model checks, FX and commentary skills.",
+    "full": "Finance Foundation for Cowork: an independent community project maintained by a Microsoft employee. Not an official Microsoft product or resource, and not affiliated with or endorsed by Microsoft. A Finance skill set for Copilot Cowork, built for all finance teams. Every skill prepares and recommends but never posts, releases, approves, files or sends without an explicit instruction; every figure is labelled and traced to its source; thresholds come from the user or the shared Finance Profile. Skills (7): Set up finance profile; Ingest finance data; Tie out numbers; Audit spreadsheet model; Translate currency; Digest finance workstreams; Write executive commentary. Works alongside the other Finance for Cowork plugins; install Finance Foundation for Cowork for the shared Finance Profile."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B3A55",
+  "agentSkills": [
+    {
+      "folder": "./skills/set-up-finance-profile"
+    },
+    {
+      "folder": "./skills/ingest-finance-data"
+    },
+    {
+      "folder": "./skills/tie-out-numbers"
+    },
+    {
+      "folder": "./skills/audit-spreadsheet-model"
+    },
+    {
+      "folder": "./skills/translate-currency"
+    },
+    {
+      "folder": "./skills/digest-finance-workstreams"
+    },
+    {
+      "folder": "./skills/write-executive-commentary"
+    }
+  ]
+}

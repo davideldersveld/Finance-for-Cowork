@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.28/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.28",
+  "version": "1.0.1",
+  "id": "cbb6cf3b-a6a7-519f-be95-dcd123584862",
+  "developer": {
+    "name": "Copilot SE Contributors",
+    "websiteUrl": "https://example.com/copilot-se-contributors",
+    "privacyUrl": "https://example.com/copilot-se-contributors/privacy",
+    "termsOfUseUrl": "https://example.com/copilot-se-contributors/terms"
+  },
+  "name": {
+    "short": "Internal Controls for Cowork",
+    "full": "Internal Controls & Risk for Cowork (Independent community project)"
+  },
+  "description": {
+    "short": "Assurance skills: ICFR scoping, control testing, SoD, deficiencies.",
+    "full": "Internal Controls & Risk for Cowork: an independent community project maintained by a Microsoft employee. Not an official Microsoft product or resource, and not affiliated with or endorsed by Microsoft. A Finance skill set for Copilot Cowork, built for sox, internal controls, internal audit and finance risk teams. Every skill prepares and recommends but never posts, releases, approves, files or sends without an explicit instruction; every figure is labelled and traced to its source; thresholds come from the user or the shared Finance Profile. Skills (7): Document processes and controls; Scope financial reporting risk; Test controls; Evaluate control deficiencies; Review access and segregation; Analyze journal entry risk; Track remediation. Works alongside the other Finance for Cowork plugins; install Finance Foundation for Cowork for the shared Finance Profile."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#3B3A9E",
+  "agentSkills": [
+    {
+      "folder": "./skills/document-processes-and-controls"
+    },
+    {
+      "folder": "./skills/scope-financial-reporting-risk"
+    },
+    {
+      "folder": "./skills/test-controls"
+    },
+    {
+      "folder": "./skills/evaluate-control-deficiencies"
+    },
+    {
+      "folder": "./skills/review-access-and-segregation"
+    },
+    {
+      "folder": "./skills/analyze-journal-entry-risk"
+    },
+    {
+      "folder": "./skills/track-remediation"
+    }
+  ]
+}

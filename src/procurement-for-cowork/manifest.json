@@ -1,0 +1,57 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.28/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.28",
+  "version": "1.0.1",
+  "id": "40face0b-874e-5f46-89f4-6d7cc6c7cf1a",
+  "developer": {
+    "name": "Copilot SE Contributors",
+    "websiteUrl": "https://example.com/copilot-se-contributors",
+    "privacyUrl": "https://example.com/copilot-se-contributors/privacy",
+    "termsOfUseUrl": "https://example.com/copilot-se-contributors/terms"
+  },
+  "name": {
+    "short": "Procurement for Cowork",
+    "full": "Procurement for Cowork (Independent community project)"
+  },
+  "description": {
+    "short": "Source-to-contract skills: demand, sourcing, negotiation, suppliers, value.",
+    "full": "Procurement for Cowork: an independent community project maintained by a Microsoft employee. Not an official Microsoft product or resource, and not affiliated with or endorsed by Microsoft. A Finance skill set for Copilot Cowork, built for sourcing, category management and procurement operations. Every skill prepares and recommends but never posts, releases, approves, files or sends without an explicit instruction; every figure is labelled and traced to its source; thresholds come from the user or the shared Finance Profile. Skills (10): Intake purchase demand; Build category strategy; Prepare sourcing package; Evaluate supplier responses; Plan negotiation; Validate price increase; Screen new supplier; Monitor supplier performance; Manage contract renewals; Report procurement value. Works alongside the other Finance for Cowork plugins; install Finance Foundation for Cowork for the shared Finance Profile."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#0F6CBD",
+  "agentSkills": [
+    {
+      "folder": "./skills/intake-purchase-demand"
+    },
+    {
+      "folder": "./skills/build-category-strategy"
+    },
+    {
+      "folder": "./skills/prepare-sourcing-package"
+    },
+    {
+      "folder": "./skills/evaluate-supplier-responses"
+    },
+    {
+      "folder": "./skills/plan-negotiation"
+    },
+    {
+      "folder": "./skills/validate-price-increase"
+    },
+    {
+      "folder": "./skills/screen-new-supplier"
+    },
+    {
+      "folder": "./skills/monitor-supplier-performance"
+    },
+    {
+      "folder": "./skills/manage-contract-renewals"
+    },
+    {
+      "folder": "./skills/report-procurement-value"
+    }
+  ]
+}

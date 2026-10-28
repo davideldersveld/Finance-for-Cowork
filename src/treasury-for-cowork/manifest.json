@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.28/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.28",
+  "version": "1.0.1",
+  "id": "ead2ad78-732b-58a8-b140-09ab96a34418",
+  "developer": {
+    "name": "Copilot SE Contributors",
+    "websiteUrl": "https://example.com/copilot-se-contributors",
+    "privacyUrl": "https://example.com/copilot-se-contributors/privacy",
+    "termsOfUseUrl": "https://example.com/copilot-se-contributors/terms"
+  },
+  "name": {
+    "short": "Treasury for Cowork",
+    "full": "Treasury for Cowork (Independent community project)"
+  },
+  "description": {
+    "short": "Cash-to-capital skills: cash, liquidity, debt, exposure, banks, insurance.",
+    "full": "Treasury for Cowork: an independent community project maintained by a Microsoft employee. Not an official Microsoft product or resource, and not affiliated with or endorsed by Microsoft. A Finance skill set for Copilot Cowork, built for treasury, corporate finance and risk management teams. Every skill prepares and recommends but never posts, releases, approves, files or sends without an explicit instruction; every figure is labelled and traced to its source; thresholds come from the user or the shared Finance Profile. Skills (11): Report daily cash position; Forecast short-term cash; Plan liquidity and funding; Maintain debt register; Monitor debt covenants; Measure market exposure; Document hedge relationships; Review investment portfolio; Check payment release; Administer bank relationships; Prepare insurance renewal. Works alongside the other Finance for Cowork plugins; install Finance Foundation for Cowork for the shared Finance Profile."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#8A6100",
+  "agentSkills": [
+    {
+      "folder": "./skills/report-daily-cash-position"
+    },
+    {
+      "folder": "./skills/forecast-short-term-cash"
+    },
+    {
+      "folder": "./skills/plan-liquidity-and-funding"
+    },
+    {
+      "folder": "./skills/maintain-debt-register"
+    },
+    {
+      "folder": "./skills/monitor-debt-covenants"
+    },
+    {
+      "folder": "./skills/measure-market-exposure"
+    },
+    {
+      "folder": "./skills/document-hedge-relationships"
+    },
+    {
+      "folder": "./skills/review-investment-portfolio"
+    },
+    {
+      "folder": "./skills/check-payment-release"
+    },
+    {
+      "folder": "./skills/administer-bank-relationships"
+    },
+    {
+      "folder": "./skills/prepare-insurance-renewal"
+    }
+  ]
+}

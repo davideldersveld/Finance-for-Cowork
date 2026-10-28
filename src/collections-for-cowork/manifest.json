@@ -1,0 +1,57 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.28/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.28",
+  "version": "1.0.1",
+  "id": "ce29b721-c447-556d-9354-e68b905127bb",
+  "developer": {
+    "name": "Copilot SE Contributors",
+    "websiteUrl": "https://example.com/copilot-se-contributors",
+    "privacyUrl": "https://example.com/copilot-se-contributors/privacy",
+    "termsOfUseUrl": "https://example.com/copilot-se-contributors/terms"
+  },
+  "name": {
+    "short": "Collections for Cowork",
+    "full": "Credit & Collections for Cowork (Independent community project)"
+  },
+  "description": {
+    "short": "Credit-to-cash skills: credit, worklists, disputes, cash application, AR KPIs.",
+    "full": "Credit & Collections for Cowork: an independent community project maintained by a Microsoft employee. Not an official Microsoft product or resource, and not affiliated with or endorsed by Microsoft. A Finance skill set for Copilot Cowork, built for credit, collections, cash application and accounts receivable teams. Every skill prepares and recommends but never posts, releases, approves, files or sends without an explicit instruction; every figure is labelled and traced to its source; thresholds come from the user or the shared Finance Profile. Skills (10): Assess customer credit; Segment collections portfolio; Plan collector worklist; Prepare collection call; Draft collection correspondence; Track payment promises; Resolve disputes and deductions; Apply cash from remittances; Prepare escalation referral; Report receivables performance. Works alongside the other Finance for Cowork plugins; install Finance Foundation for Cowork for the shared Finance Profile."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#107C41",
+  "agentSkills": [
+    {
+      "folder": "./skills/assess-customer-credit"
+    },
+    {
+      "folder": "./skills/segment-collections-portfolio"
+    },
+    {
+      "folder": "./skills/plan-collector-worklist"
+    },
+    {
+      "folder": "./skills/prepare-collection-call"
+    },
+    {
+      "folder": "./skills/draft-collection-correspondence"
+    },
+    {
+      "folder": "./skills/track-payment-promises"
+    },
+    {
+      "folder": "./skills/resolve-disputes-and-deductions"
+    },
+    {
+      "folder": "./skills/apply-cash-from-remittances"
+    },
+    {
+      "folder": "./skills/prepare-escalation-referral"
+    },
+    {
+      "folder": "./skills/report-receivables-performance"
+    }
+  ]
+}

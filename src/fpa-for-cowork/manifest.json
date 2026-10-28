@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.28/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.28",
+  "version": "1.0.1",
+  "id": "93d60275-8a13-547b-aebb-ac2cdb48373b",
+  "developer": {
+    "name": "Copilot SE Contributors",
+    "websiteUrl": "https://example.com/copilot-se-contributors",
+    "privacyUrl": "https://example.com/copilot-se-contributors/privacy",
+    "termsOfUseUrl": "https://example.com/copilot-se-contributors/terms"
+  },
+  "name": {
+    "short": "FP&A for Cowork",
+    "full": "FP&A for Cowork (Independent community project)"
+  },
+  "description": {
+    "short": "Plan-to-perform skills: budget, forecast, variance, scenarios, reviews.",
+    "full": "FP&A for Cowork: an independent community project maintained by a Microsoft employee. Not an official Microsoft product or resource, and not affiliated with or endorsed by Microsoft. A Finance skill set for Copilot Cowork, built for financial planning and analysis and finance business partners. Every skill prepares and recommends but never posts, releases, approves, files or sends without an explicit instruction; every figure is labelled and traced to its source; thresholds come from the user or the shared Finance Profile. Skills (11): Run budget cycle; Build driver-based forecast; Prepare long-range plan; Analyze plan vs actual; Build performance bridges; Model scenarios and sensitivities; Evaluate investment case; Analyze profitability; Plan workforce cost; Define and track KPIs; Prepare business review pack. Works alongside the other Finance for Cowork plugins; install Finance Foundation for Cowork for the shared Finance Profile."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#B4009E",
+  "agentSkills": [
+    {
+      "folder": "./skills/run-budget-cycle"
+    },
+    {
+      "folder": "./skills/build-driver-based-forecast"
+    },
+    {
+      "folder": "./skills/prepare-long-range-plan"
+    },
+    {
+      "folder": "./skills/analyze-plan-vs-actual"
+    },
+    {
+      "folder": "./skills/build-performance-bridges"
+    },
+    {
+      "folder": "./skills/model-scenarios-and-sensitivities"
+    },
+    {
+      "folder": "./skills/evaluate-investment-case"
+    },
+    {
+      "folder": "./skills/analyze-profitability"
+    },
+    {
+      "folder": "./skills/plan-workforce-cost"
+    },
+    {
+      "folder": "./skills/define-and-track-kpis"
+    },
+    {
+      "folder": "./skills/prepare-business-review-pack"
+    }
+  ]
+}

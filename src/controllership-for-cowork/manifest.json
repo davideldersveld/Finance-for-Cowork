@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.28/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.28",
+  "version": "1.0.1",
+  "id": "c57cdcef-a353-5898-a55f-76580af4b719",
+  "developer": {
+    "name": "Copilot SE Contributors",
+    "websiteUrl": "https://example.com/copilot-se-contributors",
+    "privacyUrl": "https://example.com/copilot-se-contributors/privacy",
+    "termsOfUseUrl": "https://example.com/copilot-se-contributors/terms"
+  },
+  "name": {
+    "short": "Controllership for Cowork",
+    "full": "Controllership & External Reporting for Cowork (Independent community project)"
+  },
+  "description": {
+    "short": "Close-to-report skills: accounting papers, statements, disclosure, audit.",
+    "full": "Controllership & External Reporting for Cowork: an independent community project maintained by a Microsoft employee. Not an official Microsoft product or resource, and not affiliated with or endorsed by Microsoft. A Finance skill set for Copilot Cowork, built for controllership, technical accounting and external reporting teams. Every skill prepares and recommends but never posts, releases, approves, files or sends without an explicit instruction; every figure is labelled and traced to its source; thresholds come from the user or the shared Finance Profile. Skills (8): Draft accounting position paper; Analyze revenue arrangement; Abstract lease for accounting; Compile financial statements; Check disclosure completeness; Assess new accounting standard; Coordinate external audit; Prepare audit committee pack. Works alongside the other Finance for Cowork plugins; install Finance Foundation for Cowork for the shared Finance Profile."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#005B70",
+  "agentSkills": [
+    {
+      "folder": "./skills/draft-accounting-position-paper"
+    },
+    {
+      "folder": "./skills/analyze-revenue-arrangement"
+    },
+    {
+      "folder": "./skills/abstract-lease-for-accounting"
+    },
+    {
+      "folder": "./skills/compile-financial-statements"
+    },
+    {
+      "folder": "./skills/check-disclosure-completeness"
+    },
+    {
+      "folder": "./skills/assess-new-accounting-standard"
+    },
+    {
+      "folder": "./skills/coordinate-external-audit"
+    },
+    {
+      "folder": "./skills/prepare-audit-committee-pack"
+    }
+  ]
+}
