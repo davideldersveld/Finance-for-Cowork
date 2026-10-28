@@ -13,6 +13,14 @@
 
 Finance for Cowork is a family of **9 plugins** containing **83 skills** that help Finance teams use Copilot Cowork for real work: reconciling accounts, preparing payment runs, forecasting cash, analyzing variances, checking covenants, preparing tax workpapers, compiling statements and testing controls. Each plugin covers one end-to-end Finance process, and every skill follows the same rules: it prepares and recommends, cites every figure to its source, and never posts, pays, approves, files or sends anything on its own.
 
+### The complete Finance for Cowork suite
+
+Install all nine plugins to make the full set of Finance skills available in Cowork:
+
+<p align="center">
+  <img src="docs/images/finance-plugins-installed.png" width="900" alt="All nine Finance for Cowork plugins installed and enabled in Copilot Cowork">
+</p>
+
 ## Contents
 
 - [What's included](#whats-included)
@@ -52,17 +60,52 @@ Install **Finance Foundation for Cowork** first. It creates the shared Finance P
 
 Download the `.zip` files you need from the [`dist`](dist) folder. Each zip is a complete, ready-to-upload Copilot Cowork plugin package: a `manifest.json`, a color icon (192x192), an outline icon (32x32) and a `skills` folder. Do not unzip before uploading.
 
-### 2. Install
+### 2. Open Customize
 
-| Who | How |
-|---|---|
-| Microsoft 365 administrator | Upload the zip as a custom plugin in the Microsoft 365 admin center, then make it available to the users or groups who need it. |
-| Developer or tester | Sideload the zip for personal testing in a development tenant, for example with Microsoft 365 Agents Toolkit. |
-| End user | Ask your Microsoft 365 administrator to upload the plugins, then turn them on in Copilot Cowork. |
+Open Microsoft 365 Copilot, select **Cowork**, and then select **Customize** in the left navigation.
+
+<p align="center">
+  <img src="docs/images/setup-01-customize.png" width="390" alt="Customize selected in the Copilot Cowork navigation">
+</p>
+
+### 3. Add and upload a plugin
+
+On the Customize page, select **Add**, then **Upload**. Drag a downloaded plugin `.zip` into the upload dialog or choose the file from your computer. Repeat this step for each plugin you want to install.
+
+<table>
+  <tr>
+    <td width="34%" align="center"><strong>1. Select Add &gt; Upload</strong></td>
+    <td width="66%" align="center"><strong>2. Choose the plugin ZIP</strong></td>
+  </tr>
+  <tr>
+    <td><img src="docs/images/setup-02-add-upload.png" alt="Upload option in the Add menu"></td>
+    <td><img src="docs/images/setup-03-upload-dialog.png" alt="Upload a skill or plugin dialog accepting ZIP files"></td>
+  </tr>
+</table>
+
+> [!TIP]
+> Install **Finance Foundation for Cowork** first. It creates the shared Finance Profile used by the other plugins.
+
+### 4. Turn on and share the plugin
+
+After upload, make sure the plugin toggle is on. To share it, select the **...** menu beside the plugin and choose **Share**. Choose who in your organization can use it, then select **Apply**. Available sharing choices depend on your tenant policies and permissions.
+
+<table>
+  <tr>
+    <td width="56%" align="center"><strong>1. Open the Share action</strong></td>
+    <td width="44%" align="center"><strong>2. Choose access and apply</strong></td>
+  </tr>
+  <tr>
+    <td><img src="docs/images/setup-04-share-menu.png" alt="Share action in a Finance for Cowork plugin menu"></td>
+    <td><img src="docs/images/setup-05-share-dialog.png" alt="Sharing options for a Finance for Cowork plugin"></td>
+  </tr>
+</table>
+
+If custom plugin upload or organizational sharing is unavailable, ask your Microsoft 365 administrator to confirm that your tenant allows custom Cowork plugins and that you have the required permissions.
 
 Exact menu names in the admin center change over time; follow the current Microsoft Learn guidance for adding plugins to Copilot Cowork in your tenant. Tenants with certain information-barrier policies may block custom plugin upload.
 
-### 3. Create your Finance Profile
+### 5. Create your Finance Profile
 
 In Copilot Cowork, say:
 
@@ -72,7 +115,7 @@ Set up my finance profile.
 
 Cowork interviews you once and saves `Finance-Profile.md` to your Cowork folder in OneDrive (Documents/Cowork). It records your entities, currencies, fiscal and close calendars, materiality and tolerance thresholds, approval limits, policy locations and process owners. It never stores bank account numbers, tax IDs or individual salaries. Every other skill reads this profile instead of asking you the same questions again. If you skip this step, skills ask only for the values each task needs.
 
-### 4. Ask in plain language
+### 6. Ask in plain language
 
 Turning on a plugin makes its skills available; it does not run anything. Just ask for the work, and Cowork picks the right skill. Some examples:
 
