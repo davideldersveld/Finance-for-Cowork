@@ -40,17 +40,17 @@ Install all nine plugins to make the full set of Finance skills available in Cow
 
 ## What's included
 
-| | Plugin | Package | Skills | For |
-|---|---|---|---|---|
-| <img src="dist/finance-foundation-for-cowork/color.png" width="40" alt="Finance Foundation for Cowork icon"> | **Finance Foundation for Cowork** | [`finance-foundation-for-cowork.zip`](dist/finance-foundation-for-cowork.zip) | 7 | All Finance teams |
-| <img src="dist/procurement-for-cowork/color.png" width="40" alt="Procurement for Cowork icon"> | **Procurement for Cowork** | [`procurement-for-cowork.zip`](dist/procurement-for-cowork.zip) | 10 | Sourcing, category management and procurement operations |
-| <img src="dist/collections-for-cowork/color.png" width="40" alt="Collections for Cowork icon"> | **Collections for Cowork** | [`collections-for-cowork.zip`](dist/collections-for-cowork.zip) | 10 | Credit, collections, cash application and accounts receivable teams |
-| <img src="dist/accounting-ops-for-cowork/color.png" width="40" alt="Accounting Ops for Cowork icon"> | **Accounting Ops for Cowork** | [`accounting-ops-for-cowork.zip`](dist/accounting-ops-for-cowork.zip) | 12 | Accounts payable, general ledger and close teams |
-| <img src="dist/treasury-for-cowork/color.png" width="40" alt="Treasury for Cowork icon"> | **Treasury for Cowork** | [`treasury-for-cowork.zip`](dist/treasury-for-cowork.zip) | 11 | Treasury, corporate finance and risk management teams |
-| <img src="dist/fpa-for-cowork/color.png" width="40" alt="FP&A for Cowork icon"> | **FP&A for Cowork** | [`fpa-for-cowork.zip`](dist/fpa-for-cowork.zip) | 11 | Financial planning and analysis and finance business partners |
-| <img src="dist/tax-for-cowork/color.png" width="40" alt="Tax for Cowork icon"> | **Tax for Cowork** | [`tax-for-cowork.zip`](dist/tax-for-cowork.zip) | 7 | Corporate tax and indirect tax teams |
-| <img src="dist/controllership-for-cowork/color.png" width="40" alt="Controllership for Cowork icon"> | **Controllership for Cowork** | [`controllership-for-cowork.zip`](dist/controllership-for-cowork.zip) | 8 | Controllership, technical accounting and external reporting teams |
-| <img src="dist/internal-controls-for-cowork/color.png" width="40" alt="Internal Controls for Cowork icon"> | **Internal Controls for Cowork** | [`internal-controls-for-cowork.zip`](dist/internal-controls-for-cowork.zip) | 7 | SOX, internal controls, internal audit and finance risk teams |
+| Plugin | Package | Skills | For |
+|---|---|---|---|
+| **Finance Foundation for Cowork** | [`finance-foundation-for-cowork.zip`](dist/finance-foundation-for-cowork.zip) | 7 | All Finance teams |
+| **Procurement for Cowork** | [`procurement-for-cowork.zip`](dist/procurement-for-cowork.zip) | 10 | Sourcing, category management and procurement operations |
+| **Collections for Cowork** | [`collections-for-cowork.zip`](dist/collections-for-cowork.zip) | 10 | Credit, collections, cash application and accounts receivable teams |
+| **Accounting Ops for Cowork** | [`accounting-ops-for-cowork.zip`](dist/accounting-ops-for-cowork.zip) | 12 | Accounts payable, general ledger and close teams |
+| **Treasury for Cowork** | [`treasury-for-cowork.zip`](dist/treasury-for-cowork.zip) | 11 | Treasury, corporate finance and risk management teams |
+| **FP&A for Cowork** | [`fpa-for-cowork.zip`](dist/fpa-for-cowork.zip) | 11 | Financial planning and analysis and finance business partners |
+| **Tax for Cowork** | [`tax-for-cowork.zip`](dist/tax-for-cowork.zip) | 7 | Corporate tax and indirect tax teams |
+| **Controllership for Cowork** | [`controllership-for-cowork.zip`](dist/controllership-for-cowork.zip) | 8 | Controllership, technical accounting and external reporting teams |
+| **Internal Controls for Cowork** | [`internal-controls-for-cowork.zip`](dist/internal-controls-for-cowork.zip) | 7 | SOX, internal controls, internal audit and finance risk teams |
 
 Install **Finance Foundation for Cowork** first. It creates the shared Finance Profile that the other plugins read. Then add the domain plugins your team needs; each one also works on its own.
 
