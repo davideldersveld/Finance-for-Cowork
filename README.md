@@ -52,7 +52,7 @@ Install all nine plugins to make the full set of Finance skills available in Cow
 | **Controllership for Cowork** | [`controllership-for-cowork.zip`](dist/controllership-for-cowork.zip) | 8 | Controllership, technical accounting and external reporting teams |
 | **Internal Controls for Cowork** | [`internal-controls-for-cowork.zip`](dist/internal-controls-for-cowork.zip) | 7 | SOX, internal controls, internal audit and finance risk teams |
 
-Install **Finance Foundation for Cowork** first. It creates the shared Finance Profile that the other plugins read. Then add the domain plugins your team needs; each one also works on its own.
+Optionally install **Finance Foundation for Cowork** first. It creates a shared Finance Profile that the other plugins can read, but it is not required for any other plugin to work. Then add the domain plugins your team needs; each one also works on its own.
 
 ## Quick start
 
@@ -84,7 +84,7 @@ On the Customize page, select **Add**, then **Upload**. Drag a downloaded plugin
 </table>
 
 > [!TIP]
-> Install **Finance Foundation for Cowork** first. It creates the shared Finance Profile used by the other plugins.
+> Optionally install **Finance Foundation for Cowork** first. It creates a shared Finance Profile that can be used by the other plugins. This is optional and not a requirement for the other plugins to work.
 
 ### 4. Turn on and share the plugin
 
