@@ -1,4 +1,4 @@
-# Finance for Cowork
+# Finance for Copilot Cowork
 
 **Independent resources for Microsoft Copilot: community-built Finance plugins for Copilot Cowork.**
 
